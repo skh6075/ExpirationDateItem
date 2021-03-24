@@ -1,0 +1,10 @@
+name: ExpirationDateItem
+main: skh6075\expirationdateitem\ExpirationDateItemLoader
+author: AvasKr
+version: 1.0.0
+api: [4.0.0]
+website: https://github.com/GodVas
+
+permissions:
+  expiration.manage.permission:
+    default: op

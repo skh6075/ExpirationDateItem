@@ -1,0 +1,14 @@
+prefix: "§l§b[ExpirationItem]§r§7 "
+date.format: "Y-m-d h:i:s"
+expiration.item.lore: "§r§f* §7Expiration Date: §f%date%"
+
+expiration.command.name: "eitem"
+expiration.command.description: "make expiration date item."
+expiration.command.help: "/eitem [year] [month] [day] [hour] [minute] [second]"
+
+command.use.only.ingane: "You can only be used in ingame."
+
+expiration.out.date: "It is later than the current time. [input: %date%]"
+expiration.isnull.item: "Air items cannot be deadlined."
+expiration.command.success: "You have successfully created an overdue item."
+expiration.out.date.item: "This item has expired."

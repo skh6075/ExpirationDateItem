@@ -1,0 +1,14 @@
+prefix: "§l§b[알림]§r§7 "
+date.format: "Y넌 m월 d일 h시 i분 s초"
+expiration.item.lore: "§r§f* §7기한제 날짜: §f%date%"
+
+expiration.command.name: "기한제"
+expiration.command.description: "기한제 아이템 명령어 입니다."
+expiration.command.help: "/기한제 [년도] [월] [일] [시] [분] [초]"
+
+command.use.only.ingane: "인게임에서만 사용할 수 있습니다."
+
+expiration.out.date: "지난 날짜로는 기한제 아이템을 만들 수 없습니다. [입력값: %date%]"
+expiration.isnull.item: "공기 아이템은 기한제로 설정할 수 없습니다."
+expiration.command.success: "성공적으로 기한제 아이템을 생성하였습니다."
+expiration.out.date.item: "기한이 만료되었습니다."
