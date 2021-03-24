@@ -37,8 +37,6 @@ final class ExpirationDateItemLoader extends PluginBase implements Listener{
 
         $this->getServer()->getCommandMap()->register(strtolower($this->getName()), new ExpirationDateItemCommand());
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-
-        var_dump(PluginLang::getInstance()->format("expiration.command.name"));
     }
 
     public function isOutExpirationDateItem(Item $item): bool{
