@@ -40,12 +40,11 @@ final class ExpirationDateItemLoader extends PluginBase implements Listener{
     }
 
     public function isOutExpirationDateItem(Item $item): bool{
-        if ($item->getNamedTag()->hasTag(self::TAG_EXPIRATION, IntTag::class)) {
-            $value = (int)$item->getNamedTag()->getInt(self::TAG_EXPIRATION, -1);
-            return time() >= $value;
+        if (!$item->getNamedTag()->getTag(self::TAG_EXPIRATION) instanceof IntTag) {
+            return false;
         }
 
-        return false;
+        return time() >= $item->getNamedTag()->getInt(self::TAG_EXPIRATION);
     }
 
     /**
